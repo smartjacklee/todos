@@ -28,7 +28,7 @@ let currentMonth = new Date();
 async function fetchTodos() {
     try {
         const response = await fetch(API_BASE_URL);
-        if (!response.ok) throw new Error('할 일을 불러오는데 실패했습니다.');
+        if (!response.ok) throw new Error('할 일을 불러오는데 실패했습니다!!.');
         todos = await response.json();
         renderCurrentView();
         updateCount();
