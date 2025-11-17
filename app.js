@@ -829,4 +829,3 @@ function checkDueDateNotifications() {
         });
     }
 }
-
