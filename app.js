@@ -34,7 +34,7 @@ async function fetchTodos() {
         updateCount();
     } catch (error) {
         console.error('할 일 불러오기 오류:', error);
-        alert('할 일을 불러오는데 실패했습니다. 서버가 실행 중인지 확인해주세요.');
+        alert('할 일을 불러오는데 실패했습니다. 서버가 실행 중인지 확인해주세요~~.');
     }
 }
 
